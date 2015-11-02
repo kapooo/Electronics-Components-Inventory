@@ -1,0 +1,540 @@
+/**
+ * Electronics Components Inventory - ECI
+ *
+ * Style 
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Creative Commons 
+ * Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
+ * that is bundled with this package in the file LICENSE.
+ * It is also available through the world-wide-web at this URL:
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to info@aceinnova.com so we can send you a copy immediately.
+ *
+ *
+ * @copyright   Copyright (c) 2015 Alessio Carpini (http://www.electronicsinv.com)
+ * @license     http://creativecommons.org/licenses/by-nc-sa/4.0/  (CC BY-NC-SA 4.0)
+ *
+ */
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: "Arimo", arial, verdana, sans-serif;
+font-weight:normal;
+}
+
+thead th,
+tbody th{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0 0 0 0;
+color:#000;
+background:#efefef url(css/img/gray_jean.png);
+font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
+text-shadow: 0 0 1px transparent; /* google font pixelation fix */
+}
+
+#wrap{
+	width:100%;
+	background:#fff;
+	margin:30px auto 30px auto;
+	padding:0 2%;
+	border:1px solid #ccc;
+}
+
+
+#footer{
+	text-align:center;
+	padding:20px;
+	margin:0;
+	border-top:1px solid #ddd;
+	color:#999;
+	font-size:0.8em;
+	text-shadow:0px 1px 1px #fff;
+	position: relative;
+	top: 0px;
+	left:0px;
+	background:#fff;
+}
+
+#link-top
+{
+	display:none;
+}
+
+.vertical_align
+{
+
+    width: 98.333333333333%;
+    margin-left: 0.83333333333333%;
+	margin-right: 0.83333333333333%;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	float: left;
+	display: block;
+	position: inherit;
+	top: 50%;
+	left: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;	
+}
+
+/* NAV BAR*/
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width: 100%;
+background:#000;
+color:#fff;
+z-index:1000;
+}
+
+.navbar #logo
+{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0.5em 1em;
+	font-size: 1.7em;
+	color:#efefef;
+	text-decoration:none;
+}
+
+.navbar span
+{
+	color:#86dc00;
+}
+
+.navbar ul
+{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+.navbar li
+{
+	margin:0;
+	padding:0;
+	list-style-type:0;
+	display:inline-block;
+}
+
+.navbar li a
+{
+	display:inline-block;
+	color:#efefef;
+	padding:1em 1.3em;
+	text-decoration:none;
+	text-transform: uppercase;
+	line-height:100%;
+	font-size: 1.2em;
+}
+
+.callout
+{
+	background:#4598ef;/*#86dc00;*/
+	padding:3em 0;
+	color:#fff;
+	box-shadow:inset 0 0 10px rgba(0,0,0,0.2);
+	text-align: center;
+	text-shadow:0px 1px 3px rgba(0,0,0,0.2);
+	display:block;
+}
+.callout + div.grid{margin-top:50px;}
+a.callout{cursor:pointer;}
+.callout i.icon-4x{font-size:6em;}
+.callout h4{margin-bottom:30px;}
+.callout-top{margin:0px 0 0 0;}
+.callout p{margin-bottom:0;}
+.callout .button{margin-top:10px;}
+.callout.green{background:#19ad0b;}
+
+#mc_embed_signup
+{
+	padding:30px 0;
+}
+
+#ui-preview
+{
+	border:5px solid #ddd;
+	margin:30px 0;
+	display:block;
+}
+
+#icon-description
+{
+	border:1px solid #ddd;
+	padding:20px;
+	background:#fff;
+}
+#icon-description span
+{
+	color:red;
+}
+
+<!-- Navigazione tra pagine -->
+#navigation-pages
+{
+	background: #EFEFEF;
+}
+
+#navigation-pages .paging-current 
+{
+	font-weight: bold;
+	background: #0183C1 none repeat scroll 0% 0%;
+	color: #FFF;
+	padding: 2px 4px;
+}
+
+#navigation-pages ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#navigation-pages li
+{
+	display:inline-block;
+	list-style:none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#navigation-pages li a
+{
+	text-decoration: none;
+	padding: 2px 4px;
+	color: #004B85;
+}
+
+#navigation-pages .scrollover
+{
+	font-weight: bold;
+	background: #AAAAAA none repeat scroll 0% 0%;
+	color: #FFF;
+	padding: 2px 4px; 
+}
+
+.navigator-pages 
+{
+	padding: .2em .8em;
+  	border-right: 1px solid #DDD;
+  	border-left: 1px solid #DDD;
+  	border-top: 1px solid #DDD;
+  	background: #EFEFEF;
+}
+
+.navigator-pages ul 
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.list-prod-category
+{
+	background: none !important;
+    border: none !important; 
+    padding:0 !important;
+    font: inherit;
+	color: #4D99E0;
+	outline: 0px none;
+	text-align: left;
+	text-decoration: underline;
+}
+
+/* Navigation Menu Index Page */
+div#navMenu, ul, li, li li
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#navMenu
+{
+	width: 98%;
+	border: 1px solid #CCC;
+	background: #FFF none repeat scroll 0% 0%;
+
+}
+
+div#navMenu ul
+{
+	line-height: 20px;
+	list-style-type: none;
+	margin-top: 3px;
+}
+
+div#navMenu li
+{
+	list-style: none;
+	background: #FFF;
+	position:relative;
+}
+			
+div#navMenu ul li a
+{
+	display: block;
+	text-decoration: none;
+	text-align: left;
+
+	color:#4D99E0;
+	padding: 1px 5px;
+	font-weight: bold;
+	width: 100%;
+	font-size: 13px;
+}
+
+div#navMenu li:hover 
+{
+	background: #AAA;
+}
+
+div#navMenu li:hover > a
+{
+	color: #FFF;
+}
+
+/*** SUB MENUS ***/			
+div#navMenu ul ul 
+{	
+	visibility: hidden;
+	display: none;
+	position: absolute; 
+	left: 98%; 
+	top: -180%; 
+	z-index: 5;
+	border: 1px solid #CCC;
+	width: 100%;
+				
+}
+
+div#navMenu li li
+{
+	list-style: none;
+	position: relative;
+	background: #FFF none repeat scroll 0% 0%;	
+}
+
+div#navMenu > ul > li:hover >  ul
+{
+	visibility: visible;
+	display:block;
+	
+	
+}
+
+/*** SUB-SUB MENUS ***/			
+div#navMenu li li li
+{
+	list-style: none;
+	position: relative;
+}
+
+div#navMenu ul ul li:hover ul
+{
+	visibility: visible;
+	display:block;
+}
+
+div#navMenu .navMenuheader
+{
+	background: #306dae none repeat scroll 0% 0%;
+	text-transform: uppercase;
+	padding: 1px 5px;
+}
+
+div#navMenu .navMenuheader  a
+{
+	color: #FFF;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+ul.breadcrumbs li a
+{
+	font-weight: bold;
+}
+
+#icon-description .last-breadcrumb
+{
+	color: #555;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 5px 15px 5px 5px;
+}
+
+/* Navigator Table category*/
+table.all-products td
+{
+	border-bottom: none;
+}
+
+table.all-products 
+{
+	border: 1px solid #CCC;
+}
+
+table.all-products caption
+{
+	font-size: 1.2em;
+	text-align: left;
+	font-weight: bold;
+	
+}
+
+#catTitle
+{
+    border-bottom: 5px solid #0183C1;
+    font-size: 1.2em;
+    margin: 0.2em 0px 0.8em 16px;
+    text-align: left;
+    min-width: 250px;
+    text-decoration: none;
+}
+
+#catTitle a 
+{
+	text-decoration: none;
+	color: #000;
+}
+
+#catTitle a:hover, a:focus
+{
+	text-decoration: underline;
+}
+
+img.catImg
+{
+    float: left;
+    display: block;   
+    background: #FFF;
+}
+
+.tCategory
+{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    line-height: 20px;
+    margin-left: 0.5em;
+}
+
+.tHeader
+{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+
+table.sub-Category td
+{
+	font-size: 14px;
+	vertical-align: top;
+	border-bottom: none;
+	width: 33%;
+	padding-left: 40px;
+}
+
+table.sub-Category a
+{
+	text-decoration:none;
+}
+
+table.sub-Category a:hover, a:focus
+{
+	text-decoration:underline;
+}
+
+table.sub-Category tr
+{
+	line-height: 7px;
+}
+
+.logo
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header_logo_title
+{
+	padding-top: 5px; 
+}
+
+/* Product  */
+#product_image
+{
+	float: left;
+	margin: 0px 10px 5px 0px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+/* Install.php Advice */
+#cookie-law 
+{ 
+    max-width: 940px;
+    background: #E23514; 
+    margin: 2px auto; 
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+ 
+#cookie-law p 
+{ 
+    padding:5px; 
+    font-size:1em; 
+    text-align:center; 
+    color:#FFFFFF; 
+    margin: 0;
+}
+
+#cookie-law a 
+{ 
+    color:#FFFFFF; 
+}
+
