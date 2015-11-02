@@ -24,6 +24,9 @@ You can create issues on our ECI Repository.
 <h2>More Info</h2>
 Visit <a href="http://www.electronicsinv.com">Electronics Components Inventory</a> web site or you can contact us directly <a href="mailto:info@aceinnova.com">info@aceinnova.com</a>.
 
+<h2>License</h2>
+Electronics Components Inventory is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Read LICENSE file or go to <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
+
 <hr>
 # Electronics Components Inventory
 <h4>Gestisci la tua componentistica elettronica tramite un database centralizzato. Tieni sotto controllo le tue scorte di magazzino e non riordinare componenti già disponibili.</h4>
@@ -46,8 +49,11 @@ Puoi anche richiedere nuove caratteristiche, fornire suggerimenti o modificare i
 * Spostati con il browser nella cartella di ECI
 * Segui le istruzioni a video
 
-<h2>Support</h2>
+<h2>Supporto</h2>
 Puoi creare un issue nel repository du GitHub
 
 <h2>Maggiori Informazioni</h2>
 Visita il nostro sito <a href="http://www.electronicsinv.com">Electronics Components Inventory</a> o contattaci direttamente <a href="mailto:info@aceinnova.com">info@aceinnova.com</a>.
+
+<h2>Licenza</h2>
+Electronics Components Inventory è distribuito tramite licenza Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Leggi il file LICENSE o <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
