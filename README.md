@@ -19,10 +19,8 @@ But you can also request or suggest new features or code changes yourself!
 * Follow the instructions
 
 <h2>Support</h2>
-You can create issues on our ECI Repository.
+Sorry, this project is not supported anymore.
 
-<h2>More Info</h2>
-Visit <a href="http://www.electronicsinv.com">Electronics Components Inventory</a> web site or you can contact us directly <a href="mailto:info@aceinnova.com">info@aceinnova.com</a>.
 
 <h2>License</h2>
 Electronics Components Inventory is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Read LICENSE file or go to <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
@@ -50,10 +48,7 @@ Puoi anche richiedere nuove caratteristiche, fornire suggerimenti o modificare i
 * Segui le istruzioni a video
 
 <h2>Supporto</h2>
-Puoi creare un issue nel repository du GitHub
-
-<h2>Maggiori Informazioni</h2>
-Visita il nostro sito <a href="http://www.electronicsinv.com">Electronics Components Inventory</a> o contattaci direttamente <a href="mailto:info@aceinnova.com">info@aceinnova.com</a>.
+Non viene fornito più supporto per questo software.
 
 <h2>Licenza</h2>
 Electronics Components Inventory è distribuito tramite licenza Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Leggi il file LICENSE o <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
